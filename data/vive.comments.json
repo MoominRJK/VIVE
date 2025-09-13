@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "68c22027495a7254bdfbabb1"
+  },
+  "postId": "68c21e011f9c0517bbd89f34",
+  "authorId": "68c21ff8495a7254bdfbabb0",
+  "authorName": "Ally",
+  "content": "Nice picture. thx for sharing!",
+  "edited": false,
+  "createdAt": {
+    "$date": "2025-09-11T01:04:39.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T01:04:39.042Z"
+  },
+  "_class": "com.example.vive.model.Comment"
+}]

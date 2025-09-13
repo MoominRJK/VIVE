@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "68c21e011f9c0517bbd89f34"
+  },
+  "authorId": "68c0a00f4a8653b968da0fea",
+  "authorName": "demo",
+  "content": "The sunset is pretty!",
+  "imageUrl": "https://images.freeimages.com/images/previews/04e/sunset-1189623.jpg",
+  "hashtags": [],
+  "likeCount": 1,
+  "likedBy": [
+    "68c21ff8495a7254bdfbabb0"
+  ],
+  "createdAt": {
+    "$date": "2025-09-11T00:55:29.577Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T01:19:39.053Z"
+  },
+  "_class": "com.example.vive.model.Post"
+},
+{
+  "_id": {
+    "$oid": "68c223a0495a7254bdfbabb2"
+  },
+  "authorId": "68c21ff8495a7254bdfbabb0",
+  "authorName": "Ally",
+  "content": "How about this one?",
+  "imageUrl": "https://images.freeimages.com/images/previews/04e/sunset-1189623.jpg",
+  "hashtags": [],
+  "likeCount": 0,
+  "likedBy": [],
+  "createdAt": {
+    "$date": "2025-09-11T01:19:28.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T01:19:28.355Z"
+  },
+  "_class": "com.example.vive.model.Post"
+},
+{
+  "_id": {
+    "$oid": "68c224f6495a7254bdfbabb3"
+  },
+  "authorId": "68c0a00f4a8653b968da0fea",
+  "authorName": "demo",
+  "content": "I went to beach again :-) #sunset #beach",
+  "imageUrl": "https://images.freeimages.com/images/previews/04e/sunset-1189623.jpg",
+  "hashtags": [
+    "sunset",
+    "beach"
+  ],
+  "likeCount": 0,
+  "likedBy": [],
+  "createdAt": {
+    "$date": "2025-09-11T01:25:10.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T01:25:10.345Z"
+  },
+  "_class": "com.example.vive.model.Post"
+}]

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "68c0a00f4a8653b968da0fea"
+  },
+  "email": "test1@gmail.com",
+  "password": "$2a$10$DQjzx1sGtV852tEw8WGGNuPqY2NFM3Wafh6NKjQFgdkj0gqvZg5g6",
+  "displayName": "demo",
+  "createdAt": {
+    "$date": "2025-09-09T21:45:51.672Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T21:45:51.672Z"
+  },
+  "enabled": true,
+  "_class": "com.example.vive.model.User"
+},
+{
+  "_id": {
+    "$oid": "68c21ff8495a7254bdfbabb0"
+  },
+  "email": "test2@gmail.com",
+  "password": "$2a$10$qMb8DYAY7jZShweaZkKCy.epzdYDEIIW/w7qcIUERXiOsFFKyizhm",
+  "displayName": "Ally",
+  "createdAt": {
+    "$date": "2025-09-11T01:03:52.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T01:03:52.779Z"
+  },
+  "enabled": true,
+  "_class": "com.example.vive.model.User"
+}]

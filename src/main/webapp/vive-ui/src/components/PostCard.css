@@ -1,0 +1,168 @@
+/* PostCard.css */
+.post-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-info h4 {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.post-time {
+  color: #888;
+  font-size: 14px;
+}
+
+.post-content {
+  padding: 15px 20px;
+}
+
+.post-content p {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.hashtag {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.hashtag:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.hashtag-chips {
+  padding: 0 20px 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hashtag-chip {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hashtag-chip:hover {
+  transform: scale(1.05);
+}
+
+.post-actions {
+  padding: 15px 20px 20px 20px;
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  color: #666;
+}
+
+.action-btn:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.like-btn.liked {
+  color: #e74c3c;
+}
+
+.like-btn.liked .action-icon {
+  animation: heartbeat 0.6s ease-in-out;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.action-icon {
+  font-size: 16px;
+}
+
+.action-count {
+  font-weight: 600;
+  min-width: 20px;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .post-card {
+    border-radius: 8px;
+  }
+
+  .post-header, .post-content, .hashtag-chips, .post-actions {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .post-content p {
+    font-size: 15px;
+  }
+
+  .hashtag-chips {
+    gap: 6px;
+  }
+
+  .hashtag-chip {
+    font-size: 11px;
+    padding: 3px 10px;
+  }
+}
