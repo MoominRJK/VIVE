@@ -15,7 +15,25 @@
    ```
    cd VIVE
    ```
-3. 
+3. Load MongoDB:  
+   Open your terminal and run:  
+   ```
+   mongod --dbpath /usr/local/var/mongodb
+   ```
+2. Open MongoDB app  
+   Make sure MongoDB is up and running.
+
+3. Start IntelliJ backend: 
+   In IntelliJ's terminal, run:  
+   ```
+   ./gradlew bootRun
+   ```
+
+4. Start frontend in VS Code: 
+   Open VS Code and run:  
+   ```
+   npm start
+   ```
 ---
 
 ## Brief Reflection
