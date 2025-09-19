@@ -15,8 +15,7 @@
    ```
    cd VIVE
    ```
-3. Follow any setup or installation instructions as described in the code or documentation. If you are using an unconventional programming method, please detail any required dependencies and how to run your program here.
-
+3. 
 ---
 
 ## Brief Reflection
