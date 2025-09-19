@@ -30,7 +30,7 @@
    ```
 
 4. Start frontend in VS Code: 
-   Open VS Code and run:  
+   Open VS Code's terminal and run:  
    ```
    npm start
    ```
